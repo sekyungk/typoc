@@ -1,12 +1,22 @@
 import styled from "styled-components";
+import BoldTextSet from "../components/BoldTextSet";
+import TextSet from "../components/TextSet";
 
 const Container = styled.div`
-  font-family: "Roboto", "Noto Sans KR", sans-serif;
-  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
 `;
 
 function HomePage() {
-  return <Container>요기요익스프레스 ABCDEFGabcdefg 1234!@#$</Container>;
+  return (
+    <Container>
+      <BoldTextSet />
+      <TextSet />
+    </Container>
+  );
 }
 
 export default HomePage;

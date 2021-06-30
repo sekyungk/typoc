@@ -1,6 +1,8 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
+import { resetStyle } from "../styles/resetStyle";
 
 const GlobalStyle = createGlobalStyle`
+  ${resetStyle}
 
   @font-face {
     font-family: "Roboto";
@@ -8,24 +10,31 @@ const GlobalStyle = createGlobalStyle`
     src: url("/fonts/Roboto-Regular.ttf") format("truetype");
   }
   @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    src: url("/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+  @font-face {
     font-family: "Noto Sans KR";
     font-style: normal;
     src: url("/fonts/NotoSansKR-Regular.otf") format("opentype");
     unicode-range: U+AC00-D7A3;
   }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    src: url("/fonts/NotoSansKR-Bold.otf") format("opentype");
+    unicode-range: U+AC00-D7A3;
+    font-weight: bold;
+  }
 
   body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
   }
 `;
 
-const theme = {
-  colors: {
-    primary: "#0070f3",
-  },
-};
+const theme = {};
 
 export default function App({ Component, pageProps }) {
   return (
