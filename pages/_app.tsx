@@ -8,51 +8,51 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('https://yds-font.yogiyo.co.kr/Roboto-Regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('/fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Regular.woff') format('woff'), /* Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Regular.svg#Roboto') format('svg'); /* Legacy iOS */
   }
   @font-face {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    src: url('/fonts/roboto-v27-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('https://yds-font.yogiyo.co.kr/Roboto-Bold.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('/fonts/roboto-v27-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/roboto-v27-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/roboto-v27-latin-700.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/roboto-v27-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/roboto-v27-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Bold.woff') format('woff'), /* Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://yds-font.yogiyo.co.kr/Roboto-Bold.svg#Roboto') format('svg'); /* Legacy iOS */
   }
   @font-face {
     font-family: "Noto Sans KR";
     font-style: normal;
     unicode-range: U+AC00-D7A3;
     font-weight: 400;
-    src: url('/fonts/noto-sans-kr-v13-korean-regular.eot'); /* IE9 Compat Modes */
+    src: url('https://yds-font.yogiyo.co.kr/NotoSansKR-Regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('/fonts/noto-sans-kr-v13-korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/noto-sans-kr-v13-korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/noto-sans-kr-v13-korean-regular.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/noto-sans-kr-v13-korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/noto-sans-kr-v13-korean-regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Regular.woff') format('woff'), /* Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Regular.otf') format('opentype'), /* Safari, Android, iOS */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Regular.svg#NotoSansKR') format('svg'); /* Legacy iOS */
   }
   @font-face {
     font-family: "Noto Sans KR";
     font-style: normal;
     unicode-range: U+AC00-D7A3;
     font-weight: 700;
-    src: url('/fonts/noto-sans-kr-v13-korean-700.eot'); /* IE9 Compat Modes */
+    src: url('https://yds-font.yogiyo.co.kr/NotoSansKR-Bold.eot'); /* IE9 Compat Modes */
     src: local(''),
-         url('/fonts/noto-sans-kr-v13-korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/noto-sans-kr-v13-korean-700.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/noto-sans-kr-v13-korean-700.woff') format('woff'), /* Modern Browsers */
-         url('/fonts/noto-sans-kr-v13-korean-700.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/noto-sans-kr-v13-korean-700.svg#NotoSansKR') format('svg'); /* Legacy iOS */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Bold.woff') format('woff'), /* Modern Browsers */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Bold.otf') format('opentype'), /* Safari, Android, iOS */
+         url('https://yds-font.yogiyo.co.kr/NotoSansKR-Bold.svg#NotoSansKR') format('svg'); /* Legacy iOS */
   }
 
   body {
